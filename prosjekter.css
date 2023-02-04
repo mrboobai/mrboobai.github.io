@@ -1,0 +1,29 @@
+body {
+    overflow-x: hidden;
+    background-color: var(--blue_purple3);
+  }
+
+.backdrop {
+    /*parent*/
+    background-color: var(--purple);
+    border-radius: 20px;
+    height: auto;
+    margin: 5%;
+    height: 80%;
+}
+
+.tekst {
+  color: rgb(255, 255, 255);
+  font-family: var(--brødtekst);
+  margin: 1%;
+  text-decoration: none;
+  font-size: 110%;
+}
+  
+.overskrift {
+  color: rgb(255, 255, 255);
+  font-family: var(--overskrift);
+  margin: 1%;
+  font-size: 170%;
+  text-decoration: none;
+}
